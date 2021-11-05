@@ -1,0 +1,134 @@
+.navbar-brand {
+    font-family: kanit;
+    font-size: 25px;
+
+}
+
+.jumbotron {
+background-color: #44AEF3;
+ background-size: cover;
+ height: 500px;
+}
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 40px;
+    font-weight: 200;
+}
+.jumbotron .display-4 span{
+    font-weight: 600;
+}
+.img-fluid{
+    margin-top: 100px;
+    border-radius: 70px;
+    margin-left: 55px;
+    width: 600px;
+}
+.gmbr h3{
+    margin-top: 200px;
+    font-size: 52px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.gmbr h3 span{
+    font-weight: 700;
+}
+.gmbr p{
+    margin-bottom: 20px;
+    color: #ABB1BB;
+    font-family: kanit;
+}
+.tombol{
+    border-radius: 40px;
+    width: 100px;
+}
+
+
+.img-fluid2{
+    
+    margin-top: 120px;
+    border-radius: 53px;
+    width: 605px;
+    height: 450px;
+}
+.gmbr2 h3{
+    margin-top: 250px;
+    font-size: 52px;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.gmbr2 h3 span{
+    font-weight: 700;
+}
+.gmbr2 p{
+    margin-bottom: 20px;
+    color: #ABB1BB;
+    font-family: kanit;
+    margin-left: 20px;
+}
+
+.tombol2{
+    border-radius: 40px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+footer{
+    margin-top: 80px;
+}
+
+.kartu{
+    margin-left: 85px;
+    margin-top: 55px;
+}
+
+ .card-img{
+    width: 286px;
+    height: 155px;
+}
+.card-img2{
+    height: 155px;
+    width: 286px;
+}
+
+
+
+
+
+
+
+
+/* desktop */
+@media (min-width: 992px) {
+   .navbar-brand, .nav-link{
+       color: white !important;
+       text-shadow: 1px 1px 1px 1px rgba(0,0,0,0.7);
+   }
+    .nav-link{
+        font-family: kanit;
+        margin-right: 10px;
+        color: white !important;
+    }
+    
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #ffffff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.jumbotron{
+    margin-top: -75px;
+    height: 600px;
+}
+
+.jumbotron .display-4{
+    font-size: 62px;
+}
+
+}
